@@ -1,9 +1,7 @@
 name: AE
 channels:
-  - defaults
   - conda-forge
-  - pytorch
-  
+  - nodefaults
 dependencies:
   - python=3.10
   - numpy
@@ -11,10 +9,5 @@ dependencies:
   - matplotlib
   - seaborn
   - pytorch
-  - torchvision
-  - torchaudio
   - scikit-learn
-  - jupyter
-  - pip
-  - pip:
-      - torchmetrics
+  - jupyterlab
